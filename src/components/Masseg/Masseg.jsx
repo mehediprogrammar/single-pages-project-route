@@ -1,9 +1,9 @@
 
 
-const Home = () => {
-    return (  
-        
-<div className="grid grid-cols-2 md:grid-cols-3 px-10 my-10 gap-4">
+const Masseg = () => {
+    return (
+        <div>
+           <div className="grid m-16  grid-cols-2 md:grid-cols-3 gap-4">
     <div>
         <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt=""/>
     </div>
@@ -41,10 +41,8 @@ const Home = () => {
         <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt=""/>
     </div>
 </div>
-
-
-
+        </div>
     );
 };
 
-export default Home;
+export default Masseg;
